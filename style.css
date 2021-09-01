@@ -1,0 +1,35 @@
+html {
+    background-color: lightblue;
+  }
+  
+  
+  .progress-bar {
+    height: 20px;
+    background: green;
+    width: 0px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 2px;
+    border-radius: 15px
+  }
+  
+  .progress {
+    width: 200px;
+    background-color: #e0e0e0;
+  }
+  #reset{
+    width:50px;
+    color: blue;
+    background-color: azure;
+  }
+  #start{
+    width:50px;
+    color: blue;
+    background-color: aliceblue;
+  }
+  #stop{
+    width:50px;
+    color: blue;
+    background-color: aliceblue;
+  }
+  
