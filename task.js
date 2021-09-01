@@ -11,7 +11,12 @@ function resetButton() {
 	var r = getProgress();
 	setProgress(r = 0);
 }
-
+//Stop Auto complete value at current value when button is pressed.
+function stopProgress(){
+	/* Update: Stop id interval */
+  clearInterval(id)
+  id = ''
+}
 
 //Get Current Value of attributes
 function getProgress() {
